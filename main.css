@@ -1,0 +1,61 @@
+.demoSpace{
+    width: 300px;
+    height: 200px;
+    border: solid black;
+    text-align: center;  
+    
+}
+
+#shapeTransition{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    transition: width 2s;
+}
+
+#shapeTransition:hover{
+    width: 100px;
+}
+
+#shapeJump{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+#shapeJump:hover{
+    width: 100px;
+}
+
+#shapeMultiple{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    transition-property: width, background-color;
+    transition-duration: 2s;
+}
+
+#shapeMultiple:hover{
+    width: 100px;
+    background-color: violet;
+}
+
+#space{
+    position: relative;
+    color: green;
+    top: 40px;
+    transition: letter-spacing, 2s;
+}
+
+#space:hover{
+    letter-spacing: 5px;
+}
